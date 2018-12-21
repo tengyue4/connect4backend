@@ -1,0 +1,17 @@
+{
+  "name": "my-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "aws-sdk": "^2.381.0",
+    "serverless-offline": "^3.31.3",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "offline": "serverless offline start --dontPrintOutput"
+  },
+  "author": "",
+  "license": "ISC"
+}
